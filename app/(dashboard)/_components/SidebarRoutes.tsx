@@ -7,11 +7,11 @@ import { usePathname } from "next/navigation";
 
 
 const guestRoutes=[
-    {
-        icon: Layout,
-        label:"Dashboard",
-        href:'/',
-    },
+    // {
+    //     icon: Layout,
+    //     label:"Dashboard",
+    //     href:'/',
+    // },
     {
         icon: Compass,
         label:"Browse",
@@ -24,11 +24,11 @@ const teacherRoutes=[
         label:"Courses",
         href:'/teacher/courses',
     },
-    {
-        icon: BarChart,
-        label:"Analytics",
-        href:'/teacher/analytics',
-    },
+    // {
+    //     icon: BarChart,
+    //     label:"Analytics",
+    //     href:'/teacher/analytics',
+    // },
 ]
 export const SidebarRoutes = () => {
     const pathname=usePathname();
